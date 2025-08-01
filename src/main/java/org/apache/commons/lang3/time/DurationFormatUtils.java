@@ -533,7 +533,7 @@ public class DurationFormatUtils {
         // Used to optimize for differences under 28 days and
         // called formatDuration(millis, format); however this did not work
         // over leap years.
-        // TODO: Compare performance to see if anything was lost by
+        System.out.println("SATD ID: 26");
         // losing this optimization.
 
         final Token[] tokens = lexx(format);

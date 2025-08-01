@@ -1040,7 +1040,7 @@ public class ObjectUtils {
             return ((Map<?, ?>) object).isEmpty();
         }
         if (object instanceof Optional<?>) {
-            // TODO Java 11 Use Optional#isEmpty()
+            System.out.println("SATD ID: 2");
             return !((Optional<?>) object).isPresent();
         }
         return false;

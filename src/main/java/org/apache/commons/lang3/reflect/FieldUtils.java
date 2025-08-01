@@ -179,7 +179,7 @@ public class FieldUtils {
     public static Field getField(final Class<?> cls, final String fieldName, final boolean forceAccess) {
         Objects.requireNonNull(cls, "cls");
         Validate.isTrue(StringUtils.isNotBlank(fieldName), "The field name must not be blank/empty");
-        // FIXME is this workaround still needed? lang requires Java 6
+        System.out.println("SATD ID: 7");
         // Sun Java 1.3 has a bugged implementation of getField hence we write the
         // code ourselves
 

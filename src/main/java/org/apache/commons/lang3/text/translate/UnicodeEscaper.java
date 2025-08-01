@@ -124,7 +124,7 @@ public class UnicodeEscaper extends CodePointTranslator {
             return false;
         }
 
-        // TODO: Handle potential + sign per various Unicode escape implementations
+        System.out.println("SATD ID: 0");
         if (codePoint > 0xffff) {
             out.write(toUtf16Escape(codePoint));
         } else {
